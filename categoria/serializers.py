@@ -16,12 +16,12 @@ class PlanoFinanceiroSerializer(serializers.ModelSerializer):
 
 
 class PlanoFinanceiroListDetailSerializer(serializers.ModelSerializer):
-    nivel0 = Nivel0Serializer
-    nivel1 = Nivel1Serializer
-    nivel2 = Nivel2Serializer
-    nivel3 = Nivel3Serializer
-    nivel4 = Nivel4Serializer
-    nivel5 = Nivel5Serializer
+    nivel0 = Nivel0Serializer()
+    nivel1 = Nivel1Serializer()
+    nivel2 = Nivel2Serializer()
+    nivel3 = Nivel3Serializer()
+    nivel4 = Nivel4Serializer()
+    nivel5 = Nivel5Serializer()
 
     class Meta:
         model = PlanoFinanceiro
