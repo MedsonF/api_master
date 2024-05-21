@@ -16,7 +16,7 @@ class PlanoFinanceiroSerializer(serializers.ModelSerializer):
 
 
 class PlanoFinanceiroListDetailSerializer(serializers.ModelSerializer):
-    nivel0 = Nivel0Serializer()
+    plano_fin = Nivel0Serializer()
     nivel1 = Nivel1Serializer()
     nivel2 = Nivel2Serializer()
     nivel3 = Nivel3Serializer()
