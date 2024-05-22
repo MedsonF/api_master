@@ -25,4 +25,4 @@ class PlanoFinanceiroListDetailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = PlanoFinanceiro
-        fields = ['id', 'codigo', 'plano_fin', 'nivel1', 'nivel2', 'nivel3', 'nivel4', 'nivel5']
+        fields = ['id', 'plano_fin', 'codigo', 'nivel1', 'nivel2', 'nivel3', 'nivel4', 'nivel5']
